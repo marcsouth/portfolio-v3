@@ -1,10 +1,10 @@
 "use client" 
 
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, NavbarMenuToggle, NavbarMenuItem, NavbarMenu} from "@nextui-org/react";
+import {Navbar, NavbarContent, NavbarItem, Link, NavbarMenuToggle, NavbarMenuItem, NavbarMenu} from "@nextui-org/react";
 import ThemeSwitcher from "./ThemeSwitcher";
 
-export default function NavBar() {
+export default function NavigationBar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
@@ -61,3 +61,4 @@ export default function NavBar() {
     </Navbar>
   );
 }
+
