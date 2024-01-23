@@ -1,3 +1,4 @@
+import AboutSection from "./components/AboutSection"
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
     <p className="text-center  mt-2">Front-end Development and Software Portfolio</p>
   </div>
 </div>
+
+<AboutSection />
 
 </>
   )
