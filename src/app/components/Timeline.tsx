@@ -9,6 +9,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import CodeIcon from '@mui/icons-material/Code';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import BusinessIcon from '@mui/icons-material/Business';
+import Mekanoid from '../../public/images/mekanoid.png'
 import { FaReact } from "react-icons/fa";
 import Typography from '@mui/material/Typography';
 
